@@ -40,6 +40,7 @@ public class Person
     }
     @Override
     public String toString() {
+        println(0);
     	return "Person [name=" + name + ",income=" + income + ",gender=" +gender +",age=" +age +",tax=" + tax +"]";
     }
 }
